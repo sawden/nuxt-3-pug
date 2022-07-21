@@ -1,0 +1,20 @@
+.button {
+  display: flex;
+  border: 0 none transparent;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #00DC82;
+  color: #00181E;
+  &:hover {
+    cursor: pointer;
+    background-color: #00C675;
+  }
+  &.secondary {
+    background-color: #004227;
+    color: #fff;
+    &:hover {
+      background-color: #00633B;
+    }
+  }
+}
